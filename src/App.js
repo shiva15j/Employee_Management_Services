@@ -1,10 +1,10 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import ListEmployeeComponent from './components/ListEmployeeComponent';
 import Headercomponent from './components/Headercomponent';
 import Footercomponent from './components/Footercomponent';
-
+import CreateEmployeComponent from './components/CreateEmployeComponent';
 
 function App() {
   return (
@@ -14,27 +14,23 @@ function App() {
       <Router>
 
     
-      <div className='.container'>
+    
       <Headercomponent />
       <div className="Container">
 <Switch> 
 
-  <Route path="/" component ={ListEmployeeComponent}></Route>
-  <Route path="/employees" component ={ListEmployeeComponent}></Route>
-
-      <ListEmployeeComponent />
+  <Route path= "/ " exact component ={ListEmployeeComponent}></Route>
+  <Route path= "/employees" exact component ={ListEmployeeComponent}></Route>
+  <Route path= "/add-employee" exact component ={CreateEmployeComponent}></Route>
 </Switch>
-
-
 </div>
 
- <Footercomponent />
- </div>
- </Router>
+<Footercomponent />
 
-     
-     
-    </div>
+ </Router>
+ </div>
+
+  
   );
 }
 

@@ -4,11 +4,11 @@ export default class Headercomponent extends Component {
   render() {
     return (
       <div>
-<header className='header'>
+<header className="header">
 
     <nav className="navbar navbar-expand-md navbar-dark">
 
-        <div a href="https://www.w3schools.com/jsref/jsref_map.asp" className='navbar-brand'>
+        <div a href="https://www.w3schools.com/jsref/jsref_map.asp" className="navbar-brand">
 
             EMPLOYEE MANAGEMENT APP
         </div>

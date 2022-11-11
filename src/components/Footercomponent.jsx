@@ -5,9 +5,9 @@ export default class Footercomponent extends Component {
     return (
       <div>
 
-<footer className='footer'>
+<footer className="footer">
 
-    <span className='text-muted'>  All right Reseverved 2022 @shivam </span>
+    <span className="text-muted">  All right Reseverved 2022 @shivam </span>
 
 
 
